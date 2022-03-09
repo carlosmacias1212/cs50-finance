@@ -13,3 +13,6 @@ Finance is a full stack web project developed using Flask, Python, HTML, CSS, an
 1. Changed default CSS of distribution code
 2. Modified/added HTML
 3. Implemented database commands in applications.py
+
+# Final Product
+<img width="1440" alt="Screen Shot 2022-03-09 at 2 11 57 PM" src="https://user-images.githubusercontent.com/68452096/157526599-19888d05-ff70-4d52-a2fa-d5b6d691ff7a.png">
