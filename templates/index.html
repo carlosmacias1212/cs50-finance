@@ -1,0 +1,65 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+
+<body class="index">
+    <table class="table">
+        <tr style="background-color: grey;">
+            <th>Symbol</th>
+            <th>Name</th>
+            <th>Shares</th>
+            <th>Price</th>
+            <th>TOTAL</th>
+        </tr>
+
+        {% for row in rows %}
+
+            <tr>
+                <td>{{ row["symbol"] }}</td>
+                <td>{{ row["company"] }}</td>
+                <td>{{ row["amount"] }}</td>
+                
+               
+                
+                {% if row["color"] > 0 %}
+                    <td style="color: green;">{{ row["price"] }}</td>
+                    <td style="color: green;">{{ row["total"] }}</td>
+                    
+                {% elif row["color"] < 0 %}
+                    <td style="color: red;">{{ row["price"] }}</td>
+                    <td style="color: red;">{{ row["total"] }}</td> 
+                    
+                {% elif row["color"] == 0 %}
+                    <td style="color: white;">{{ row["price"] }}</td>
+                    <td style="color: white;">{{ row["total"] }}</td> 
+                
+                {% endif %}
+                
+               
+            </tr>
+
+        {% endfor %}
+
+        <tr>
+            <td>CASH</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>{{ cash }}</td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>{{ sum_total }}</td>
+        </tr>
+    </table>
+    
+</body>
+{% endblock %}
