@@ -1,1 +1,1 @@
-# cs50-finance
+# CS50 Finance Project
