@@ -15,4 +15,21 @@ Finance is a full stack web project developed using Flask, Python, HTML, CSS, an
 3. Implemented database commands in applications.py
 
 # Final Product
-<img width="1440" alt="Screen Shot 2022-03-09 at 2 11 57 PM" src="https://user-images.githubusercontent.com/68452096/157526599-19888d05-ff70-4d52-a2fa-d5b6d691ff7a.png">
+Login
+<img width="1417" alt="Screen Shot 2022-03-09 at 2 10 59 PM" src="https://user-images.githubusercontent.com/68452096/157527170-ed6fcb0a-324c-4f17-ac84-84028af06a9b.png">
+
+Register
+<img width="1435" alt="Screen Shot 2022-03-09 at 2 12 24 PM" src="https://user-images.githubusercontent.com/68452096/157527623-bb305881-4e8a-4733-8b93-56dc21edc32b.png">
+
+Quote
+<img width="1436" alt="Screen Shot 2022-03-09 at 2 11 37 PM" src="https://user-images.githubusercontent.com/68452096/157527946-8a0eee19-349b-4bd8-8194-12f7fd5fd063.png">
+
+Buy
+<img width="1435" alt="Screen Shot 2022-03-09 at 2 11 57 PM" src="https://user-images.githubusercontent.com/68452096/157528278-942ea88f-ee9c-4231-a0a4-20331ca64ecf.png">
+
+Index
+<img width="1436" alt="Screen Shot 2022-03-09 at 2 10 41 PM" src="https://user-images.githubusercontent.com/68452096/157528533-01625dcb-0de3-4d48-b3a2-6a23cc3ef05d.png">
+
+History
+<img width="1436" alt="Screen Shot 2022-03-09 at 2 12 07 PM" src="https://user-images.githubusercontent.com/68452096/157528790-5dd2886e-b692-4f2f-b269-6d84e53e8423.png">
+
